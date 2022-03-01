@@ -6,8 +6,8 @@ const nodeGlobalsPlugin = require('rollup-plugin-node-globals');
 // for options
 const options = {
   input: 'src/js/videojs-dash.js',
-  distName: 'videojs-dash',
-  exportName: 'videojsDash',
+  distName: 'nuevo-dash',
+  exportName: 'nuevoDash',
   // stream and string_decoder are used by some modules
   plugins(defaults) {
     return {
