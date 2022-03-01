@@ -4,10 +4,10 @@
   "main": "dist/videojs-dash.cjs.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/videojs/videojs-contrib-dash.git"
+    "url": "https://dargre//nuevo-contrib-dash.git"
   },
-  "version": "5.1.0",
-  "author": "Brightcove, Inc",
+  "version": "1.1.0",
+  "author": "Nuevodevel.com",
   "license": "Apache-2.0",
   "scripts": {
     "prebuild": "npm run clean",
@@ -50,11 +50,10 @@
     "docs/",
     "index.html",
     "scripts/",
-    "src/",
-    "test/"
+    "src/"
   ],
   "dependencies": {
-    "dashjs": "^4.0.1",
+    "dashjs": "^4.3.1",
     "global": "^4.3.2",
     "video.js": "^5.18.0 || ^6 || ^7"
   },
